@@ -40,10 +40,13 @@ You can use any model for face detection. There are various approaches. One simp
 
 Havi
  - Software
+ 
 Nicholas 
  - Algorithm Design
+ 
 Angad
  - Networking
+ 
 Shared roles: Setup, Writing, Research
 
 **Timeline:**
