@@ -24,6 +24,8 @@ can use any model for face detection. There are various approaches. One simple w
 **TEAM MEMBERS and roles:**
 Havi
 
-Nicholas
+Nicholas 
 
 Angad
+
+Shared roles: Setup, Writing, Research
