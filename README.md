@@ -16,13 +16,13 @@ We will attempt to make a compact and reasonable addon to a doorbell by leaving 
 • The final output should be a code snippet and demonstration running inference directly on Raspberry Pi
 
 **System Blocks:**
-Input of Camera & Motion Detector: Input: Raw video from camera module. Does: captures frames and signifies events if there's enough motion. -> Outputs: Image from that event frame and sends trigger signal.
+   Input of Camera & Motion Detector: Input: Raw video from camera module. Does: captures frames and signifies events if there's enough motion. -> Outputs: Image from that event frame and sends trigger signal.
 
-Face Detector: Input: Frame of event image. Does: Runs a face detection model to identify coordinates of any faces in the image. Outputs: Bounding box or cropped image of face, or nothing if it cant find anything.
+   Face Detector: Input: Frame of event image. Does: Runs a face detection model to identify coordinates of any faces in the image. Outputs: Bounding box or cropped image of face, or nothing if it cant find anything.
 
-Face Recognizer: Input: Cropped image of face. Does: Runs the image on a trained CNN designed for face recognition. Output: A way to identify the faces features.
+   Face Recognizer: Input: Cropped image of face. Does: Runs the image on a trained CNN designed for face recognition. Output: A way to identify the faces features.
 
-Database: Input: That way to identify faces, the recognized faces database. Does: If close enough to the measure on the identified faces, we will call it a match, else it isn't. Outputs: Label on if it is a known person with their name, or unknown, like "Known Person: Havi" 
+   Database: Input: That way to identify faces, the recognized faces database. Does: If close enough to the measure on the identified faces, we will call it a match, else it isn't. Outputs: Label on if it is a known person with their name, or unknown, like "Known Person: Havi" 
 
 **Hardware and Software Requirements:**
 Hardware:
@@ -50,14 +50,17 @@ Shared roles: Setup, Writing, Research
    All through:
      - Work on documents as we go.
      - Research constantly, not just in October.
+     
    October:
     - Setting up hardware, and testing. 
     - Research.
     - Collecting a dataset for our faces.
+    
    November:
     - Train model using Colab.
     - Add model on Raspberry Pi
     - Make software for image capture and detection.
+    
    December: 
     - Polish Polish
     - See if we can add optional or additional features.
